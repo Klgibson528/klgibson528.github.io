@@ -1,0 +1,52 @@
+body {
+  font-size: small;
+  font-family: arial, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  padding: 15px;
+}
+
+.left {
+  text-align: left;
+}
+.buttons {
+  background-color: #f5f5f5;
+  text-align: center;
+  width: 7rem;
+  padding: 0.5rem;
+  float: left;
+  margin: 1rem;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mic {
+  text-align: right;
+  width: 40px;
+}
+#logo {
+  width: 27%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#search {
+  width: 27%;
+  border-color: #f5f5f5;
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
